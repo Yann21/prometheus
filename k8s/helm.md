@@ -1,3 +1,4 @@
+## How to reproduce a Helm "Chart" for Prometheus and Grafana
 helm repo add stable https://charts.helm.sh/stable
 helm repo update
 helm install prometheus stable/prometheus-operator
