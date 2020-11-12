@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+prometheus --config.file=yml/prometheus_cum_exporter.yml --storage.tsdb.path=data/
