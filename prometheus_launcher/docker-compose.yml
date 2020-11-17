@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: prometheus
+    volumes:
+      - /home/yann/Desktop/Job/Prometheus/prometheus_launcher/conf:/etc/prometheus
+      - /home/yann/Desktop/Job/Prometheus/prometheus_launcher/data:/prometheus
+
+    command:
+      - "--config.file=/etc/prometheus/prometheus.yml"
+      - "--storage.tsdb=/prometheus"
+
+    ports:
+      - "9090:9090"

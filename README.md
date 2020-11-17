@@ -4,8 +4,9 @@ empircal data.
 
 ## Week 1
 ### Implementation items
-* prometheus
-* grafana
+* prometheus (separately)
+* grafana (separately)
+* prometheus and grafana
 * prometheus-exporter
 
 ### Implementation methods

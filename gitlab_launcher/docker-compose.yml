@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  gitlab:
+    image: gitlab/gitlab-ee:latest
+    restart: always
+    container_name: gitlab_composed
+    environment:
+      - GITLAB_HOME=/srv/gitlab
+    ports:
+      - "11443:443"
+      - "1180:80"
+      - "1122:22"
+    volumes:
+      - /srv/gitlab/config:/etc/gitlab
+      - /srv/gitlab/logs:/var/log/gitlab
+      - /srv/gitlab/data:/var/opt/gitlab
+      - /var/run/docker.sock:/var/run/docker.sock

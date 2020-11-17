@@ -1,0 +1,14 @@
+#!/usr/bin/bash
+
+# Prometheus UI interface
+[ ! -L static ] && echo "you are missing the static"
+[ ! -L template ] && echo "you are missing templates"
+
+
+prometheus --config.file=conf/minsky.yml \
+           --storage.tsdb.path=data/ &
+           #--web.user-assets=/usr/share/prometheus/web/ui/static \
+           #--web.console.templates=/usr/share/prometheus/web/ui/templates
+
+#grafana-server --config=/etc/grafana.ini \
+   #--homepath=/usr/share/grafana/ &

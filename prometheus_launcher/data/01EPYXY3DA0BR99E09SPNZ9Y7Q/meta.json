@@ -1,0 +1,17 @@
+{
+	"ulid": "01EPYXY3DA0BR99E09SPNZ9Y7Q",
+	"minTime": 1605197511545,
+	"maxTime": 1605204000000,
+	"stats": {
+		"numSamples": 1862104,
+		"numSeries": 2131,
+		"numChunks": 13218
+	},
+	"compaction": {
+		"level": 1,
+		"sources": [
+			"01EPYXY3DA0BR99E09SPNZ9Y7Q"
+		]
+	},
+	"version": 1
+}
