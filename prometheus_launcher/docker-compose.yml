@@ -9,8 +9,8 @@ services:
       - /home/yann/Desktop/Job/Prometheus/prometheus_launcher/data:/prometheus
 
     command:
-      - "--config.file=/etc/prometheus/prometheus.yml"
-      - "--storage.tsdb=/prometheus"
+      - "--config.file=/etc/prometheus/prometheus_github.yml"
+      - "--storage.tsdb.path=/prometheus"
 
     ports:
       - "9090:9090"
