@@ -20,3 +20,9 @@ empircal data.
 * PromQL
 * Exporters/Client
 * Helm chart
+
+## Week 4
+https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/
+
+## Architecture diagram
+![Architecture Diagram](https://rawgithub.../ref/architecture_diagram.png)
