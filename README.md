@@ -2,6 +2,10 @@
 Monitoring of key DevOps metrics to improve the efficiency of pipeline with
 empircal data.
 
+## Architecture Diagram
+![architecture diagram](https://raw.githubusercontent.com/Yann21/prometheus/main/ref/architecture_diagram.png)
+
+
 ## Week 1
 ### Implementation items
 * prometheus (separately)
@@ -23,6 +27,3 @@ empircal data.
 
 ## Week 4
 https://github.com/mvisonneau/gitlab-ci-pipelines-exporter/
-
-## Architecture diagram
-![Architecture Diagram](https://rawgithub.../ref/architecture_diagram.png)
